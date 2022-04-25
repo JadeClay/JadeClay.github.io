@@ -46,6 +46,11 @@ nav ul li a.logo {
     color: rgb(245, 203, 92);
 }
 
+.inline-icon {
+    vertical-align: bottom;
+    font-size: 18px !important;
+ }
+
 /*Nav Buttons Animation*/
 .hvr-underline-from-center {
     display: inline-block;
