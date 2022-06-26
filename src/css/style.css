@@ -42,9 +42,8 @@ nav ul li button#toggle-nav {
 
 nav ul li a {
     display: block;
-    padding: 0.5vh;
     text-decoration: none;
-    padding: 2.6vh 2vh;
+    padding: 2.7vh 2vh;
     color: rgb(232, 237, 223);
 }
 
