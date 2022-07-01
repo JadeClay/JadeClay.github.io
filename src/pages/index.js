@@ -12,7 +12,6 @@ import "@fontsource/material-icons"
 const IndexPage = () => (
   <Layout>
     <Seo title="Home" />
-
     <div class="landing-page">
       <h1>Supp, people!</h1>
       <p>Welcome to my portfolio. It's still work in progress so, come back later :)</p>

@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Oscar Piña || Portfolio`,
+    title: `Oscar Piña - Portfolio`,
     description: `Just a presentation card for everyone who's looking information about me and my work.`,
     author: `@callmebertie`,
     siteUrl: `https://callmebertie.xyz/`,

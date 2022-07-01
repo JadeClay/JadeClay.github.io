@@ -9,6 +9,14 @@ Icon and Hover Background: 245, 203, 92
 Second color: 207, 219, 213
 
 */
+
+body {
+    overflow-x: hidden;
+}
+nav {
+    margin-bottom: 0;
+}
+
 nav, nav ul {
     width: 100vw;
     height: 8vh;
@@ -87,4 +95,19 @@ nav ul li a.logo {
     right: 0;
   }
 
-  
+/* HERO IMAGE CSS */
+
+div.landing-page {
+    z-index: -1;
+    margin-top: 0;
+    background-image: url(../images/hero-image.jpg);
+    height: 92vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.container {
+    margin-top: -3vh;
+}
