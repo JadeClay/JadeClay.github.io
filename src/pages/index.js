@@ -13,19 +13,14 @@ const IndexPage = () => (
   <Layout>
     <Seo title="Home" />
     <div class="landing-page">
-      <h1>Supp, people!</h1>
-      <p>Welcome to my portfolio. It's still work in progress so, come back later :)</p>
-      <StaticImage
-        src="../images/gatsby-astronaut.png"
-        width={300}
-        quality={95}
-        formats={["auto", "webp", "avif"]}
-        alt="A Gatsby astronaut"
-        style={{ marginBottom: `1.45rem` }}
-      />
-      <p>
-        <Link to="/page-2/">Go to page 2</Link> <br />
-      </p>
+      <center>
+        <h1>Supp, people!</h1>
+        <p><i>Welcome to my portfolio. It's still work in progress so, come back later :)</i></p>
+        <p>
+          <Link to="/page-2/">Go to page 2</Link> <br />
+        </p>
+      </center>
+      
     </div>
   </Layout>
 )
