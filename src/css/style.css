@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,700;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Ubuntu:ital,wght@0,700;1,300&display=swap');
 @import url('./landing.css');
 /* Color Palette
 
@@ -15,7 +15,7 @@ body {
     overflow-x: hidden;
 }
 nav {
-    margin-bottom: 0;
+    margin-bottom: -10vh;
 }
 
 nav, nav ul {
@@ -34,7 +34,7 @@ nav ul {
     color: rgb(232, 237, 223);
     margin: 0;  
     padding: 0;
-    background-color: rgba(36, 36, 35, 1); 
+    background-color: none; 
 }
 
 nav ul li {
@@ -95,22 +95,3 @@ nav ul li a.logo {
     left: 0;
     right: 0;
   }
-
-/* HERO IMAGE CSS */
-
-div.landing-page {
-    z-index: -1;
-    margin-top: 0;
-    background-image: url(../images/hero-image.jpg);
-    height: 92vh;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    font-family: 'Ubuntu', sans-serif;
-    color: aliceblue;
-}
-
-.container {
-    margin-top: -3vh;
-}
