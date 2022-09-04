@@ -15,7 +15,7 @@ export default class HeroPage extends React.Component {
         backgroundSize: "cover",
       }}>
         <Container>
-          <Typography variant="h4" component="h1" color={'#428e92'}
+          <Typography variant="h4" component="h1" color={'primary'}
           sx={{
             paddingTop: {xs:14, md:25},
           }}>
@@ -32,7 +32,7 @@ export default class HeroPage extends React.Component {
           <Stack direction={{xs: 'column', md:'row'}} justifyItems={{xs: 'center'}} alignItems={{xs: 'center'}} spacing={2} sx={{
               mb: {xs:26, md:26.4}
             }}>
-            <Button variant='contained' >
+            <Button variant='contained' size={'large'} color={'secondary'}>
               Hire me!
             </Button>
 
