@@ -1,13 +1,11 @@
-import { Paper, Typography, Button } from '@mui/material'
+import { Paper, Typography, Button, ButtonGroup, IconButton, Stack } from '@mui/material'
 import { Container } from '@mui/system';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import EmailIcon from '@mui/icons-material/Email';
 import React from 'react'
 import Image from '../img/background.jpg';
 
-const styles = {
-  boxcontainer: {
-
-  }
-}
 
 export default class HeroPage extends React.Component {
   render() {
@@ -15,19 +13,42 @@ export default class HeroPage extends React.Component {
       <Paper sx={{
         backgroundImage: `url(${Image})`,
         backgroundSize: "cover",
-        backgroundColor: 'rgba(0,0,0,1)',
       }}>
         <Container>
-          <Typography variant="h3" component="h1" color={'white'} 
+          <Typography variant="h4" component="h1" color={'#428e92'}
           sx={{
-            paddingBottom: 3,
-            paddingTop: {xs:14.3, md:28},
+            paddingTop: {xs:14, md:25},
+          }}>
+            Software Developer
+          </Typography>
+          <Typography variant="h3" component="h2" color={'white'} 
+          sx={{
+            paddingBottom: 5,
+            mb: {xs:5, md: 0},
           }}>
               Hello! My name is Oscar Piña and I'm a Telematic Engineering student at PUCMM :)
           </Typography>
-          <Button variant='contained' sx={{
-            mb: {xs:30, md:31}
-          }}>Hire me!</Button>
+
+          <Stack direction={{xs: 'column', md:'row'}} justifyItems={{xs: 'center'}} alignItems={{xs: 'center'}} spacing={2} sx={{
+              mb: {xs:26, md:26.4}
+            }}>
+            <Button variant='contained' >
+              Hire me!
+            </Button>
+
+            <ButtonGroup variant="iconbutton" aria-label="outlined primary button group">
+              <IconButton aria-label="github" href='https://github.com/JadeClay' target='_blank'>
+                <GitHubIcon />
+              </IconButton>
+              <IconButton aria-label='linkedin' href='https://www.linkedin.com/in/callmebertie/' target='_blank'>
+                <LinkedInIcon />
+              </IconButton>
+              <IconButton aria-label='email' href='mailto:oscaralbertopinap@gmail.com'>
+                <EmailIcon />
+              </IconButton>
+            </ButtonGroup>
+          </Stack>
+          
         </Container>
       </Paper>
     )
