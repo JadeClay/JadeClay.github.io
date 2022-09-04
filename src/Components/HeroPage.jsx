@@ -6,7 +6,10 @@ import EmailIcon from '@mui/icons-material/Email';
 import React from 'react'
 import Image from '../img/background.jpg';
 
-
+function onClickAlert() {
+  /* Make this work on a Material UI modal */
+  alert("Work in progress");
+}
 export default class HeroPage extends React.Component {
   render() {
     return (
@@ -32,7 +35,7 @@ export default class HeroPage extends React.Component {
           <Stack direction={{xs: 'column', md:'row'}} justifyItems={{xs: 'center'}} alignItems={{xs: 'center'}} spacing={2} sx={{
               mb: {xs:26, md:26.4}
             }}>
-            <Button variant='contained' size={'large'} color={'secondary'}>
+            <Button variant='contained' size={'large'} color={'secondary'} onClick={onClickAlert}>
               Hire me!
             </Button>
 

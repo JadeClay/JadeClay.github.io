@@ -6,6 +6,7 @@ import '@fontsource/roboto/700.css';
 import {createTheme, CssBaseline, responsiveFontSizes, Stack, ThemeProvider } from '@mui/material';
 import HeroPage from './Components/HeroPage';
 import Navbar from './Components/ResponsiveAppBar';
+import Skills from './Components/Skills';
 import Footer from './Components/Footer';
 
 
@@ -27,11 +28,14 @@ function App() {
   return (
     <ThemeProvider theme={DarkTheme}>
       <CssBaseline/>
-      
+
       <Navbar/>
       <Stack>
+        
         <HeroPage/>
+        <Skills/>
         <Footer/>
+
       </Stack>
     </ThemeProvider>
   );

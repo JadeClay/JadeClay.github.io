@@ -7,7 +7,11 @@ export default class Footer extends Component {
   render() {
     return (
       <Container sx={{ padding: 2 }}>
-        <Stack direction="row" alignItems="center" gap={0.5} justifyContent="center">
+        <Stack direction="row" alignItems="center" gap={0.5} justifyContent="center" display={{ xs:'inline-flex', md:'none' }}>
+          <CopyrightIcon fontSize='small' />
+          <Typography variant="subtitle1">2022. All rights reserved. </Typography>
+        </Stack>
+        <Stack direction="row" alignItems="center" gap={0.5} justifyContent="center" display={{ xs:'none', md:'inline-flex' }}>
           <CopyrightIcon fontSize='small' />
           <Typography variant="subtitle1">2022. Done with </Typography>
           <FavoriteOutlined fontSize='small' htmlColor='#93000a' />
