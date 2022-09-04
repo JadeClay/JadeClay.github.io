@@ -6,7 +6,14 @@
 			"script": "develop",
 			"problemMatcher": [],
 			"label": "npm: develop",
-			"detail": "gatsby develop"
+			"detail": "npm start"
+		},
+		{
+			"type": "npm",
+			"script": "deploy",
+			"problemMatcher": [],
+			"label": "npm: deploy",
+			"detail": "npm run build && gh-pages -d build"
 		}
 	]
 }

@@ -3,7 +3,7 @@ import '@fontsource/roboto/300.css';
 import '@fontsource/roboto/400.css';
 import '@fontsource/roboto/500.css';
 import '@fontsource/roboto/700.css';
-import {Button, createTheme, CssBaseline, Stack, ThemeProvider } from '@mui/material';
+import {createTheme, CssBaseline, Stack, ThemeProvider } from '@mui/material';
 import HeroPage from './Components/HeroPage';
 import Navbar from './Components/ResponsiveAppBar';
 import Footer from './Components/Footer';
