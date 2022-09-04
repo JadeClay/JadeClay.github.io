@@ -11,7 +11,7 @@ import MongoIcon from "./icons/MongoIcon";
 import React, { Component } from 'react'
 
 import LinearProgressWithLabel from "./LinearProgressWithLabel";
-import { blue, purple, yellow } from "@mui/material/colors";
+import { blue, green, purple, red, yellow } from "@mui/material/colors";
 import NextJsIcon from "./icons/NextJsIcon";
 
 
@@ -81,7 +81,7 @@ export default class Skills extends Component {
                 <Grid item>
                     <Card sx={{ minWidth: 275 }}>
                         <CardContent>
-                            <JavaIcon sx={{ fontSize: 50, margin: 1.2 }} />
+                            <JavaIcon sx={{ fontSize: 50, margin: 1.2, color: red[300] }} />
                             <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
                                 Java
                             </Typography>
@@ -149,7 +149,7 @@ export default class Skills extends Component {
                 <Grid item>
                     <Card sx={{ minWidth: 275 }}>
                         <CardContent>
-                            <MongoIcon sx={{ fontSize: 50, margin: 1.2}}/>
+                            <MongoIcon sx={{ fontSize: 50, margin: 1.2, color: green[300]}}/>
                             <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
                                 MongoDB
                             </Typography>
