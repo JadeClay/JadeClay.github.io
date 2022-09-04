@@ -10,6 +10,7 @@ import Container from '@mui/material/Container';
 import Button from '@mui/material/Button';
 import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
+import { Link } from '@mui/material';
 
 const pages = ['Skills', 'Projects', 'Contact Me'];
 
@@ -77,9 +78,14 @@ const ResponsiveAppBar = () => {
               }}
             >
               {pages.map((page) => (
-                <MenuItem key={page} onClick={handleCloseNavMenu}>
-                  <Typography textAlign="center">{page}</Typography>
-                </MenuItem>
+                <Button
+                key={page}
+                onClick={handleCloseNavMenu}
+                sx={{ color: 'white', display: 'block' }}
+                href={"#" + page}
+                >
+                  {page}
+                </Button>
               ))}
             </Menu>
           </Box>
@@ -108,6 +114,7 @@ const ResponsiveAppBar = () => {
                 key={page}
                 onClick={handleCloseNavMenu}
                 sx={{ my: 2, color: 'white', display: 'block' }}
+                href={"#" + page}
               >
                 {page}
               </Button>

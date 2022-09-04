@@ -1,4 +1,4 @@
-import { Card, CardContent, Grid, SvgIcon, Typography } from "@mui/material";
+import { Card, CardContent, Grid, Typography } from "@mui/material";
 import { Container } from "@mui/system";
 import JavascriptIcon from '@mui/icons-material/Javascript';
 import StorageIcon from '@mui/icons-material/Storage';
@@ -22,7 +22,7 @@ export default class Skills extends Component {
             <Grid container spacing={4} justifyContent="center">
                 
                 <Grid item xs={12}>
-                    <Typography variant="h3" component="h2" sx={{ textAlign: "center"}}>
+                    <Typography variant="h3" component="h2" sx={{ textAlign: "center"}} id="Skills">
                         Skills
                     </Typography>     
                 </Grid>
