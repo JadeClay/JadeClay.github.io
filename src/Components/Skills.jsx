@@ -7,12 +7,12 @@ import JavaIcon from "./icons/JavaIcon";
 import ReactIcon from "./icons/ReactIcon";
 import LinuxIcon from "./icons/LinuxIcon";
 import MongoIcon from "./icons/MongoIcon";
+import NextJsIcon from "./icons/NextJsIcon";
 
 import React, { Component } from 'react'
 
 import LinearProgressWithLabel from "./LinearProgressWithLabel";
 import { blue, green, purple, red, yellow } from "@mui/material/colors";
-import NextJsIcon from "./icons/NextJsIcon";
 
 
 export default class Skills extends Component {

@@ -7,6 +7,7 @@ import {createTheme, CssBaseline, responsiveFontSizes, Stack, ThemeProvider } fr
 import HeroPage from './Components/HeroPage';
 import Navbar from './Components/ResponsiveAppBar';
 import Skills from './Components/Skills';
+import Projects from './Components/Projects';
 import Footer from './Components/Footer';
 
 
@@ -34,6 +35,7 @@ function App() {
         
         <HeroPage/>
         <Skills/>
+        <Projects/>
         <Footer/>
 
       </Stack>

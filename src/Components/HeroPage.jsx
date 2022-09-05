@@ -7,9 +7,10 @@ import React from 'react'
 import Image from '../img/background.jpg';
 
 function onClickAlert() {
-  /* Make this work on a Material UI modal */
+  /* Redirect this button to Contact Me */
   alert("Work in progress");
 }
+
 export default class HeroPage extends React.Component {
   render() {
     return (
