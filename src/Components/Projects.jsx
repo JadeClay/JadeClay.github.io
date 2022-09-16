@@ -4,6 +4,8 @@ import React, { Component } from 'react'
 
 import Image from '../img/background-1.jpg';
 
+import DemoModal from './DemoModal.jsx';
+
 export default class Projects extends Component {
   render() {
     return (
@@ -25,7 +27,7 @@ export default class Projects extends Component {
                                 component="img"
                                 alt="green iguana"
                                 height="140"
-                                image="/img/background.jpg"
+                                image="https://i.imgur.com/1sgx5Rg.png"
                             />
                             <CardContent>
                                 <Typography gutterBottom variant="h5" component="div">
@@ -37,8 +39,8 @@ export default class Projects extends Component {
                                 </Typography>
                             </CardContent>
                             <CardActions>
-                                <Button size="small">Share</Button>
-                                <Button size="small">Learn More</Button>
+                                <Button size="small">Source Code</Button>
+                                <DemoModal name={"TBA"}/>
                             </CardActions>
                         </Card>
                     </Grid>
@@ -48,7 +50,7 @@ export default class Projects extends Component {
                                 component="img"
                                 alt="green iguana"
                                 height="140"
-                                image="/img/background.jpg"
+                                image="https://i.imgur.com/1sgx5Rg.png"
                             />
                             <CardContent>
                                 <Typography gutterBottom variant="h5" component="div">
@@ -60,8 +62,8 @@ export default class Projects extends Component {
                                 </Typography>
                             </CardContent>
                             <CardActions>
-                                <Button size="small">Share</Button>
-                                <Button size="small">Learn More</Button>
+                                <Button size="small">Source Code</Button>
+                                <DemoModal name={"TBA"}/>
                             </CardActions>
                         </Card>
                     </Grid>
@@ -71,7 +73,7 @@ export default class Projects extends Component {
                                 component="img"
                                 alt="green iguana"
                                 height="140"
-                                image="/img/background.jpg"
+                                image="https://i.imgur.com/1sgx5Rg.png"
                             />
                             <CardContent>
                                 <Typography gutterBottom variant="h5" component="div">
@@ -83,8 +85,8 @@ export default class Projects extends Component {
                                 </Typography>
                             </CardContent>
                             <CardActions>
-                                <Button size="small">Share</Button>
-                                <Button size="small">Learn More</Button>
+                                <Button size="small">Source Code</Button>
+                                <DemoModal name={"TBA"}/>
                             </CardActions>
                         </Card>
                     </Grid>
@@ -94,7 +96,7 @@ export default class Projects extends Component {
                                 component="img"
                                 alt="green iguana"
                                 height="140"
-                                image="/img/background.jpg"
+                                image="https://i.imgur.com/1sgx5Rg.png"
                             />
                             <CardContent>
                                 <Typography gutterBottom variant="h5" component="div">
@@ -106,8 +108,8 @@ export default class Projects extends Component {
                                 </Typography>
                             </CardContent>
                             <CardActions>
-                                <Button size="small">Share</Button>
-                                <Button size="small">Learn More</Button>
+                                <Button size="small">Source Code</Button>
+                                <DemoModal name={"TBA"}/>
                             </CardActions>
                         </Card>
                     </Grid>
@@ -117,7 +119,7 @@ export default class Projects extends Component {
                                 component="img"
                                 alt="green iguana"
                                 height="140"
-                                image="/img/background.jpg"
+                                image="https://i.imgur.com/1sgx5Rg.png"
                             />
                             <CardContent>
                                 <Typography gutterBottom variant="h5" component="div">
@@ -129,8 +131,8 @@ export default class Projects extends Component {
                                 </Typography>
                             </CardContent>
                             <CardActions>
-                                <Button size="small">Share</Button>
-                                <Button size="small">Learn More</Button>
+                                <Button size="small">Source Code</Button>
+                                <DemoModal name={"TBA"}/>
                             </CardActions>
                         </Card>
                     </Grid>
@@ -140,7 +142,7 @@ export default class Projects extends Component {
                                 component="img"
                                 alt="green iguana"
                                 height="140"
-                                image="/img/background.jpg"
+                                image="https://i.imgur.com/1sgx5Rg.png"
                             />
                             <CardContent>
                                 <Typography gutterBottom variant="h5" component="div">
@@ -152,8 +154,8 @@ export default class Projects extends Component {
                                 </Typography>
                             </CardContent>
                             <CardActions>
-                                <Button size="small">Share</Button>
-                                <Button size="small">Learn More</Button>
+                                <Button size="small">Source Code</Button>
+                                <DemoModal name={"TBA"}/>
                             </CardActions>
                         </Card>
                     </Grid>
