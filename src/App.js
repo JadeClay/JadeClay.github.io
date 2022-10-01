@@ -8,6 +8,7 @@ import HeroPage from './Components/HeroPage';
 import Navbar from './Components/ResponsiveAppBar';
 import Skills from './Components/Skills';
 import Projects from './Components/Projects';
+import ContactMe from './Components/ContactMe';
 import Footer from './Components/Footer';
 
 
@@ -36,6 +37,7 @@ function App() {
         <HeroPage/>
         <Skills/>
         <Projects/>
+        <ContactMe/>
         <Footer/>
 
       </Stack>
