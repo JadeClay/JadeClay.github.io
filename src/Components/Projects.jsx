@@ -17,7 +17,7 @@ export default class Projects extends Component {
             <Container sx={{padding: 5}}>
                 <Grid container spacing={4} justifyContent="center">
                     <Grid item xs={12}>
-                        <Typography variant="h3" component="h2" sx={{ textAlign: "center"}} id="Skills">
+                        <Typography variant="h3" component="h2" sx={{ textAlign: "center"}} id="Projects">
                             Projects
                         </Typography>     
                     </Grid>
