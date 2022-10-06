@@ -11,8 +11,7 @@ import NodeJsIcon from "./icons/NodeJsIcon";
 import React, { Component } from 'react'
 
 import RatingSkills from "./RatingSkils";
-import LinearProgressWithLabel from "./LinearProgressWithLabel";
-import { blue, green, purple, red, yellow } from "@mui/material/colors";
+import { blue, green, purple, yellow } from "@mui/material/colors";
 
 
 export default class Skills extends Component {
