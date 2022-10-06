@@ -3,14 +3,14 @@ import { Container } from "@mui/system";
 import JavascriptIcon from '@mui/icons-material/Javascript';
 import StorageIcon from '@mui/icons-material/Storage';
 import PhpIcon from '@mui/icons-material/Php';
-import JavaIcon from "./icons/JavaIcon";
 import ReactIcon from "./icons/ReactIcon";
 import LinuxIcon from "./icons/LinuxIcon";
 import MongoIcon from "./icons/MongoIcon";
-import NextJsIcon from "./icons/NextJsIcon";
+import NodeJsIcon from "./icons/NodeJsIcon";
 
 import React, { Component } from 'react'
 
+import RatingSkills from "./RatingSkils";
 import LinearProgressWithLabel from "./LinearProgressWithLabel";
 import { blue, green, purple, red, yellow } from "@mui/material/colors";
 
@@ -38,7 +38,7 @@ export default class Skills extends Component {
 
                             </Typography>
                             <Typography sx={{ mb: 1.5 }} color="text.secondary">
-                                <LinearProgressWithLabel value={30} />
+                                <RatingSkills exactValue={2} />
                             </Typography>
                         </CardContent>
                     </Card>
@@ -55,7 +55,7 @@ export default class Skills extends Component {
 
                             </Typography>
                             <Typography sx={{ mb: 1.5 }} color="text.secondary">
-                                <LinearProgressWithLabel value={70} />
+                                <RatingSkills exactValue={4} />
                             </Typography>
                         </CardContent>
                     </Card>
@@ -72,24 +72,7 @@ export default class Skills extends Component {
 
                             </Typography>
                             <Typography sx={{ mb: 1.5 }} color="text.secondary">
-                                <LinearProgressWithLabel value={50} />
-                            </Typography>
-                        </CardContent>
-                    </Card>
-                </Grid>
-
-                <Grid item>
-                    <Card sx={{ minWidth: 275 }}>
-                        <CardContent>
-                            <JavaIcon sx={{ fontSize: 50, margin: 1.2, color: red[300] }} />
-                            <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
-                                Java
-                            </Typography>
-                            <Typography variant="h5" component="div">
-
-                            </Typography>
-                            <Typography sx={{ mb: 1.5 }} color="text.secondary">
-                                <LinearProgressWithLabel value={45} />
+                                <RatingSkills exactValue={3} />
                             </Typography>
                         </CardContent>
                     </Card>
@@ -106,7 +89,7 @@ export default class Skills extends Component {
 
                             </Typography>
                             <Typography sx={{ mb: 1.5 }} color="text.secondary">
-                                <LinearProgressWithLabel value={64} />
+                                <RatingSkills exactValue={2} />
                             </Typography>
                         </CardContent>
                     </Card>
@@ -123,7 +106,7 @@ export default class Skills extends Component {
 
                             </Typography>
                             <Typography sx={{ mb: 1.5 }} color="text.secondary">
-                                <LinearProgressWithLabel value={70} />
+                                <RatingSkills exactValue={2} />
                             </Typography>
                         </CardContent>
                     </Card>
@@ -132,15 +115,15 @@ export default class Skills extends Component {
                 <Grid item>
                     <Card sx={{ minWidth: 275 }}>
                         <CardContent>
-                            <NextJsIcon sx={{ fontSize: 50, margin: 1.2}}/>
+                            <NodeJsIcon sx={{ fontSize: 50, margin: 1.2, color: green[300]}}/>
                             <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
-                                Next.js
+                                Node.js (Express)
                             </Typography>
                             <Typography variant="h5" component="div">
 
                             </Typography>
                             <Typography sx={{ mb: 1.5 }} color="text.secondary">
-                                <LinearProgressWithLabel value={0} />
+                                <RatingSkills exactValue={1} />
                             </Typography>
                         </CardContent>
                     </Card>
@@ -157,7 +140,7 @@ export default class Skills extends Component {
 
                             </Typography>
                             <Typography sx={{ mb: 1.5 }} color="text.secondary">
-                                <LinearProgressWithLabel value={0} />
+                                <RatingSkills exactValue={0} />
                             </Typography>
                         </CardContent>
                     </Card>
