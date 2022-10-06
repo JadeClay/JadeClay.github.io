@@ -5,6 +5,7 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import EmailIcon from '@mui/icons-material/Email';
 import React from 'react'
 import Image from '../img/background.jpg';
+import PaypalIcon from './icons/PaypalIcon';
 
 export default class HeroPage extends React.Component {
   render() {
@@ -44,6 +45,9 @@ export default class HeroPage extends React.Component {
               </IconButton>
               <IconButton aria-label='email' href='mailto:oscaralbertopinap@gmail.com'>
                 <EmailIcon />
+              </IconButton>
+              <IconButton aria-label='donate' href='https://www.paypal.com/donate/?hosted_button_id=8V4RZ44YHRFWL'>
+                <PaypalIcon />
               </IconButton>
             </ButtonGroup>
           </Stack>
