@@ -37,7 +37,7 @@ export default class Skills extends Component {
 
                             </Typography>
                             <Typography sx={{ mb: 1.5 }} color="text.secondary">
-                                <RatingSkills exactValue={2} />
+                                <RatingSkills exactValue={3} />
                             </Typography>
                         </CardContent>
                     </Card>
@@ -88,7 +88,7 @@ export default class Skills extends Component {
 
                             </Typography>
                             <Typography sx={{ mb: 1.5 }} color="text.secondary">
-                                <RatingSkills exactValue={2} />
+                                <RatingSkills exactValue={3} />
                             </Typography>
                         </CardContent>
                     </Card>
@@ -122,7 +122,7 @@ export default class Skills extends Component {
 
                             </Typography>
                             <Typography sx={{ mb: 1.5 }} color="text.secondary">
-                                <RatingSkills exactValue={1} />
+                                <RatingSkills exactValue={2} />
                             </Typography>
                         </CardContent>
                     </Card>
@@ -139,7 +139,7 @@ export default class Skills extends Component {
 
                             </Typography>
                             <Typography sx={{ mb: 1.5 }} color="text.secondary">
-                                <RatingSkills exactValue={0} />
+                                <RatingSkills exactValue={1} />
                             </Typography>
                         </CardContent>
                     </Card>

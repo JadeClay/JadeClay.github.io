@@ -25,22 +25,21 @@ export default class Projects extends Component {
                         <Card sx={{ maxWidth: 345 }}>
                             <CardMedia
                                 component="img"
-                                alt="green iguana"
+                                alt="Bloggy Logo"
                                 height="140"
-                                image="https://i.imgur.com/1sgx5Rg.png"
+                                image="https://imgur.com/KLCmQQM.png"
                             />
                             <CardContent>
                                 <Typography gutterBottom variant="h5" component="div">
-                                Lizard
+                                Bloggy
                                 </Typography>
                                 <Typography variant="body2" color="text.secondary">
-                                Lizards are a widespread group of squamate reptiles, with over 6,000
-                                species, ranging across all continents except Antarctica
+                                It's an open-source blog system that I'm currently developing, using React, Material UI, Express and MongoDB.
                                 </Typography>
                             </CardContent>
                             <CardActions>
-                                <Button size="small">Source Code</Button>
-                                <DemoModal name={"TBA"}/>
+                                <Button size="small" href='https://github.com/JadeClay/bloggy' target='_blank'>Source Code</Button>
+                                <DemoModal name={"Soon available..."}/>
                             </CardActions>
                         </Card>
                     </Grid>
