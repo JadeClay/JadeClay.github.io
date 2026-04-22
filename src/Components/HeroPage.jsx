@@ -26,7 +26,7 @@ export default class HeroPage extends React.Component {
             paddingBottom: 5,
             mb: {xs:5, md: 0},
           }}>
-              Hello! My name is Oscar Piña and I'm a Telematic Engineering student at PUCMM :)
+              Hello! My name is Oscar Piña and I'm a Computer Science student at UNPHU :)
           </Typography>
 
           <Stack direction={{xs: 'column', md:'row'}} justifyItems={{xs: 'center'}} alignItems={{xs: 'center'}} spacing={2} sx={{
